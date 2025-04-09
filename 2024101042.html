@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Torus -->
+      <a-entity geometry="primitive: torus; radius: 0.8; radiusTubular: 0.2" position="-4 1 -6" material="color: #FF69B4"></a-entity>
+      
+      <!-- Dodecahedron -->
+      <a-entity geometry="primitive: dodecahedron; radius: 1" position="0 1.5 -8" material="color: #9370DB"></a-entity>
+      
+      <!-- Tetrahedron -->
+      <a-entity geometry="primitive: tetrahedron; radius: 1" position="4 1.2 -6" material="color: #00CED1"></a-entity>
+      
+      <!-- Ground -->
+      <a-plane position="0 0 -6" rotation="-90 0 0" width="20" height="20" color="#7BC8A4"></a-plane>
+      
+      <!-- Sky -->
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+    
+    <p>
+       this is the thing used AFrameJS <a href="https://aframe.io/docs/1.7.0/components/geometry.html" target="_blank">resource</a>.
+    </p>
+  </body>
+</html>
